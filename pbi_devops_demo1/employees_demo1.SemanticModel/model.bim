@@ -233,6 +233,14 @@
           }
         ],
         "lineageTag": "f5c8adfb-4db2-477c-b825-84479747fea7",
+        "measures": [
+          {
+            "name": "Measure",
+            "expression": "COUNT('customers-1000'[Country])",
+            "formatString": "0",
+            "lineageTag": "fee9841b-8c78-4666-b404-0f2d6988b571"
+          }
+        ],
         "partitions": [
           {
             "name": "customers-1000",
